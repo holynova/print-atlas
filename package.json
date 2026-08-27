@@ -1,0 +1,20 @@
+{
+  "name": "print-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive atlas of printmaking and newspaper reproduction techniques.",
+  "scripts": {
+    "check": "node --check app.js",
+    "start": "python3 -m http.server 4174 --directory ."
+  },
+  "keywords": [
+    "printmaking",
+    "cmyk",
+    "education",
+    "atlas"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

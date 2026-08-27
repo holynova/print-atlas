@@ -1,0 +1,6 @@
+.prompt-panel{display:grid;grid-template-columns:1fr;gap:0;margin-top:18px;padding-top:12px;border-top:1px solid var(--line)}
+.prompt-panel>p{margin:0 0 5px;color:var(--red);font-size:11px;font-weight:800;letter-spacing:.08em}
+.prompt-line{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid rgba(21,37,31,.12)}
+.prompt-line>span{color:#697c74;font-size:10px;font-weight:800;letter-spacing:.05em}.prompt-line code{min-width:0;font-family:var(--sans);font-size:12px;line-height:1.55;white-space:normal}.copy-prompt{min-height:30px;padding:5px 8px;background:transparent;border:1px solid rgba(21,37,31,.32);color:var(--ink);font:inherit;font-size:11px;font-weight:700;cursor:pointer;white-space:nowrap;touch-action:manipulation;transition-property:background-color,color,transform;transition-duration:150ms;transition-timing-function:cubic-bezier(.16,1,.3,1)}
+.copy-prompt:active{transform:scale(.96)}.copy-prompt:focus-visible{outline:2px solid var(--red);outline-offset:2px}@media(hover:hover){.copy-prompt:hover{background:var(--ink);color:var(--paper)}}
+@media(max-width:780px){.prompt-panel{margin-top:14px}.prompt-line{grid-template-columns:30px minmax(0,1fr);gap:7px}.copy-prompt{grid-column:2;justify-self:start}.prompt-line code{font-size:11px}}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <title>压印之间 · 互动印刷与半调图鉴 - Print Atlas · Interactive Printmaking &amp; Halftone</title>
+  <defs>
+    <linearGradient id="bgGrad_print-atlas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1B18"/>
+      <stop offset="100%" stop-color="#0E0E0C"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad_print-atlas" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E5007D"/>
+      <stop offset="100%" stop-color="#009EE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad_print-atlas)" stroke="#3A362D" stroke-width="1.5"/>
+
+  <!-- Left Content Block -->
+  <g transform="translate(60, 50)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="334" height="28" rx="14" fill="#E5007D" opacity="0.15"/>
+    <text x="14" y="19" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800" fill="#E5007D" letter-spacing="1.5">PRINT CRAFT &amp; COLOR REPRODUCTION ATLAS</text>
+
+    <!-- Main Title (Chinese) -->
+    <text x="0" y="85" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="40" font-weight="900" fill="#FAF8F5" letter-spacing="-0.5">
+      压印之间 · 互动印刷与半调图鉴
+    </text>
+
+    <!-- Subtitle (English & Value Proposition) -->
+    <text x="0" y="125" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#009EE0" letter-spacing="0.5">
+      Print Atlas · Interactive Printmaking &amp; Halftone
+    </text>
+
+    <!-- Tagline Description -->
+    <text x="0" y="170" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif" font-size="16" font-weight="500" fill="#D6D3CD">
+      从木刻、凹凸平孔版到半调网点与 CMYK 套印的微观物理图鉴
+    </text>
+
+    <!-- Key Spec Badge Array -->
+    <g transform="translate(0, 225)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="608" height="38" rx="8" fill="#1E2430" stroke="#3A362D" stroke-width="1"/>
+      <circle cx="18" cy="19" r="4" fill="#E5007D"/>
+      <text x="32" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FAF8F5">CMYK OVERPRINT · HALFTONE ROSETTE · RELIEF / INTAGLIO / SCREEN</text>
+    </g>
+
+    <!-- Navigation / Quick action badges -->
+    <g transform="translate(0, 285)">
+      <rect x="0" y="0" width="135" height="34" rx="17" fill="#E5007D"/>
+      <text x="67" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TRY LIVE DEMO</text>
+
+      <rect x="145" y="0" width="125" height="34" rx="17" fill="#1E293B" stroke="#3A362D" stroke-width="1"/>
+      <text x="207" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#D6D3CD">GITHUB REPO</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Specimen Motif -->
+  
+        <!-- Print Atlas CMYK Rosette Visual -->
+        <g transform="translate(740, 45)">
+          <rect x="0" y="0" width="380" height="310" rx="14" fill="#161513" stroke="#3A362D" stroke-width="1.5"/>
+          
+          <!-- CMYK 4 Overlapping Circles with Rosette Center -->
+          <g transform="translate(190, 130)">
+            <!-- Cyan -->
+            <circle cx="-35" cy="-25" r="55" fill="#009EE0" opacity="0.5" style="mix-blend-mode: screen;"/>
+            <!-- Magenta -->
+            <circle cx="35" cy="-25" r="55" fill="#E5007D" opacity="0.5" style="mix-blend-mode: screen;"/>
+            <!-- Yellow -->
+            <circle cx="0" cy="35" r="55" fill="#FFEB00" opacity="0.5" style="mix-blend-mode: screen;"/>
+            <!-- Key Black Center Ring -->
+            <circle cx="0" cy="0" r="18" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+            <!-- Halftone Rosette Dots -->
+            <circle cx="-10" cy="-5" r="4" fill="#FFFFFF"/>
+            <circle cx="10" cy="-5" r="4" fill="#FFFFFF"/>
+            <circle cx="0" cy="10" r="4" fill="#FFFFFF"/>
+          </g>
+
+          <!-- Registration Marks (Four corners) -->
+          <g stroke="#009EE0" stroke-width="1.5">
+            <circle cx="40" cy="40" r="12" fill="none"/>
+            <line x1="40" y1="24" x2="40" y2="56"/>
+            <line x1="24" y1="40" x2="56" y2="40"/>
+
+            <circle cx="340" cy="40" r="12" fill="none" stroke="#E5007D"/>
+            <line x1="340" y1="24" x2="340" y2="56" stroke="#E5007D"/>
+            <line x1="324" y1="40" x2="356" y2="40" stroke="#E5007D"/>
+          </g>
+
+          <!-- Process Palette Bar -->
+          <g transform="translate(35, 245)">
+            <rect x="0" y="0" width="70" height="36" rx="6" fill="#009EE0"/>
+            <text x="35" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF">C 100%</text>
+
+            <rect x="80" y="0" width="70" height="36" rx="6" fill="#E5007D"/>
+            <text x="115" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF">M 100%</text>
+
+            <rect x="160" y="0" width="70" height="36" rx="6" fill="#FFEB00"/>
+            <text x="195" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#161513">Y 100%</text>
+
+            <rect x="240" y="0" width="70" height="36" rx="6" fill="#000000" stroke="#3A362D" stroke-width="1"/>
+            <text x="275" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF">K 100%</text>
+          </g>
+        </g>
+        
+</svg>

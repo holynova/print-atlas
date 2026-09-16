@@ -57,13 +57,15 @@
 ```bash
 git clone https://github.com/holynova/print-atlas.git
 cd print-atlas
-open index.html # Pure static HTML5, open directly in browser
+python3 -m http.server 4174
 ```
 
 ---
 
+打开 [localhost:4174](http://localhost:4174)。静态预览只需 Python 3；已安装 Node.js 时，可运行 `npm run check` 检查 `app.js` 语法。
+
 ## 开源协议与作者 (License & Author)
 
 - **作者**：[holynova (小桑)](https://xiaosang.cc/)
-- **授权协议**：[MIT License](./LICENSE)
+- **授权信息**：`package.json` 标记为 MIT；仓库当前未附独立 LICENSE 文件。
 - **合辑收录**：本仓库作为精选项目收录于 [Where Craft Lives (xiaosang.cc)](https://xiaosang.cc/)。

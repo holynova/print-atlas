@@ -31,16 +31,16 @@ An interactive exploration of how imagery transfers onto paper. Deconstructs the
 
 ## Why It Matters (Key Features)
 
-- **4 Traditional Printmaking Mechanics**: Interactive animated explanations of relief, intaglio, planography (lithography), and serigraphy (screen printing).
-- **CMYK 4-Channel Plate Deconstruction**: Toggle Cyan, Magenta, Yellow, and Key (Black) plates independently to observe subtractive color synthesis.
-- **Halftone Screen Angle & Rosette Loupe**: Virtual microscope inspecting 15°, 45°, and 75° screen angles designed to avoid moiré patterns.
-- **Physical Paper & Ink Micro-Simulation**: Faithfully models newsprint fibers, coated paper absorbency, and tactile press registration offsets.
+- **4 Traditional Printmaking Mechanics**: Step-by-step illustrated explanations of relief, intaglio, planography (lithography), and serigraphy (screen printing).
+- **Seven Print Languages, Three Subjects Each**: woodcut, pen hatching, halftone, CMYK overprint, lithograph, screen print, and etching — each with a figure, a landscape, and a sheep, plus copyable Chinese/English image prompts.
+- **Halftone & Rosette Diagrams**: dot size simulates tone; cyan 15°, magenta 75°, yellow 0°, and black 45° screens overlap into a rosette.
+- **Texture Identification Table**: guess the process from the texture — regular dots mean halftone, four-color dots mean CMYK overprint, parallel hatching means pen or woodcut, random grain means aquatint.
 
 ---
 
 ## Inventory & Scope
 
-Interactive guides to 4 printmaking processes, CMYK separation simulator, halftone rosette microscope, and press history.
+A field guide to 7 print languages (21 specimens + 14 bilingual prompts), 4 transfer processes, halftone & rosette diagrams, and a texture table.
 
 ---
 

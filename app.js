@@ -1,4 +1,4 @@
-document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="atlas-redesign.css"><link rel="stylesheet" href="atlas-motion.css"><link rel="stylesheet" href="atlas-prompt.css">');
+document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="museum-lab.css"><link rel="stylesheet" href="atlas-redesign.css"><link rel="stylesheet" href="atlas-motion.css"><link rel="stylesheet" href="atlas-prompt.css">');
 
 const types=[
   {n:'01',name:'木刻新闻插图',label:'刀痕与大黑白',note:'以大面积黑白和清晰刀痕组织画面，适合有力度的新闻叙事。',person:'woodcut-figures.png',landscape:'woodcut-palace.png',sheep:'sheep-woodcut.png',zh:'以 [主体] 为中心的木刻新闻插图，保留主体轮廓、姿态与主要构图；用粗细不一的手工刀痕和大面积纯黑组织光影，留出干净的米白纸面。黑白两色，高对比，边缘略有木纤维毛刺，旧报纸印刷质感。不要渐变、照片写实、3D 渲染、现代无衬线文字、水印或边框。',en:'Woodcut news illustration of [subject]; preserve the subject silhouette, pose, and primary composition. Shape light with bold solid-black masses and varied hand-carved gouge marks, leaving clean warm off-white paper. Strict black and white only, high contrast, slight wood-fiber roughness at edges, aged newspaper ink texture. No gradients, photorealism, 3D rendering, modern sans-serif text, watermark, or border.'},
